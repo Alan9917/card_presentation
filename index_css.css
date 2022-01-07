@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(1, 29, 55, 1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.target{
+    background-color: rgba(1, 30, 80, 0.37);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.title{
+    color: beige;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.desc{
+    color: rgb(160, 152, 152);
+    margin-bottom: 20px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+#portada{
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.derecha{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(160, 152, 152);
+}
+
+.izquierda{
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aqua;
+}
+
+
+
+.creador img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.creador p{
+    color: rgb(160, 152, 152);
+}
+
+.creador{
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
